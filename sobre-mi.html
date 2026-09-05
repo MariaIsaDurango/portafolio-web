@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre mí — María Isabel Durango</title>
+<meta name="description" content="Conoce a María Isabel Durango más allá del CV: cómo aprende, cómo trabaja y qué la inspira.">
+<meta property="og:title" content="Sobre mí — María Isabel Durango">
+<meta property="og:description" content="Más allá del código: quién soy cuando no estoy resolviendo un problema de datos.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">MID<span class="logo-dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="sobre-mi.html" class="active">Sobre mí</a></li>
+      <li><a href="assets/documents/CV_Maria_Isabel_Durango.pdf" class="btn-cv" download>Descargar CV</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero container" style="padding-bottom: 32px;">
+    <p class="eyebrow">~/maria$ cat sobre-mi.md</p>
+    <h1 style="font-size: clamp(28px, 4.5vw, 42px);">Sobre mí</h1>
+    <p class="hero-tagline" style="margin-bottom: 0;">
+      Más allá del código: quién soy cuando no estoy resolviendo un problema de datos.
+    </p>
+  </section>
+
+  <section class="section container" style="border-top: none;">
+    <h2 class="section-title">Cómo trabajo y aprendo</h2>
+    <p class="lede">
+      Aprendo haciendo. Mi forma de resolver problemas viene de años atendiendo
+      clientes y procesos: primero entiendo qué se necesita de verdad, después
+      busco cómo construirlo. La curiosidad es lo que me trajo hasta aquí, y es
+      lo que me mantiene aprendiendo cada semana algo nuevo en Python, datos e IA.
+    </p>
+  </section>
+
+  <section class="section container">
+    <h2 class="section-title">Intereses</h2>
+    <div class="chip-list">
+      <span>Lectura</span>
+      <span>NBA</span>
+      <span>Marvel</span>
+      <span>Anime</span>
+      <span>Música y cultura coreana</span>
+      <span>Tecnología</span>
+      <span>Inteligencia Artificial</span>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2 class="section-title">Modo concentración</h2>
+    <p class="lede">
+      Cuando necesito concentración máxima, la música es mi forma de entrar en
+      "modo túnel": mismo principio que aplico al código — bloquear el ruido,
+      enfocarme en una sola cosa hasta resolverla.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>María Isabel Durango — <span id="year"></span></p>
+    <div class="footer-links">
+      <a href="index.html">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

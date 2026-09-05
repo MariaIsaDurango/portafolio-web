@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyectos — María Isabel Durango</title>
+<meta name="description" content="Proyectos de Python, datos y Machine Learning de María Isabel Durango: SanartAPI, DataScope Bank Marketing y PyClima_Resiliente.">
+<meta property="og:title" content="Proyectos — María Isabel Durango">
+<meta property="og:description" content="API backend, Machine Learning y análisis de datos climáticos.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">MID<span class="logo-dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="proyectos.html" class="active">Proyectos</a></li>
+      <li><a href="sobre-mi.html">Sobre mí</a></li>
+      <li><a href="assets/documents/CV_Maria_Isabel_Durango.pdf" class="btn-cv" download>Descargar CV</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero container" style="padding-bottom: 32px;">
+    <p class="eyebrow">~/maria$ ls proyectos/</p>
+    <h1 style="font-size: clamp(28px, 4.5vw, 42px);">Proyectos</h1>
+    <p class="hero-tagline" style="margin-bottom: 0;">
+      Proyectos con los que estoy aplicando lo aprendido: desde una API backend en
+      desarrollo hasta un modelo de Machine Learning, incluyendo trabajo en equipo.
+    </p>
+  </section>
+
+  <section class="section container" style="border-top: none;">
+    <div class="project-grid">
+
+      <article class="project-card c-green">
+        <span class="project-badge">Personal · Privado</span>
+        <p class="project-tag">PROYECTO-01</p>
+        <h3>SanartAPI</h3>
+        <p class="project-desc">API REST empresarial para la plataforma SANART: gestión de membresías, agenda, e-commerce, pagos (Stripe/Wompi), funciones de IA (OpenAI) y notificaciones (WhatsApp). Repositorio privado por protección de datos de clientes.</p>
+        <div class="project-tech"><span>TypeScript</span><span>NestJS</span><span>PostgreSQL</span><span>Prisma ORM</span></div>
+        <p class="project-role">Mi rol: desarrollo individual</p>
+        <p class="project-cmd" style="color: var(--text-secondary); cursor: default;">~/maria$ repositorio privado — disponible bajo petición</p>
+      </article>
+
+      <article class="project-card c-green">
+        <span class="project-badge">Personal</span>
+        <p class="project-tag">PROYECTO-02</p>
+        <h3>DataScope Bank Marketing</h3>
+        <p class="project-desc">Modelo de Machine Learning que predice si un cliente bancario contratará un depósito a plazo fijo tras una campaña de telemarketing, permitiendo optimizar campañas y reducir costos operativos.</p>
+        <div class="project-tech"><span>Python</span><span>Machine Learning</span><span>Data Science</span></div>
+        <p class="project-role">Mi rol: desarrollo individual</p>
+        <a class="project-cmd" href="https://github.com/MariaIsaDurango/datascope-bank-marketing" target="_blank" rel="noopener">~/maria$ ver_repositorio &rarr;</a>
+      </article>
+
+      <article class="project-card c-blue">
+        <span class="project-badge">Colaborativo</span>
+        <p class="project-tag">PROYECTO-03</p>
+        <h3>PyClima_Resiliente</h3>
+        <p class="project-desc">Aplicación en Python para gestionar, validar y analizar datos climáticos, mejorando su acceso y calidad para análisis posteriores.</p>
+        <div class="project-tech"><span>Python</span><span>Pandas</span><span>Visualización</span></div>
+        <p class="project-role">Mi rol: colaboradora</p>
+        <a class="project-cmd" href="https://github.com/MariaIsaDurango/PyClima_Resiliente" target="_blank" rel="noopener">~/maria$ ver_repositorio &rarr;</a>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>María Isabel Durango — <span id="year"></span></p>
+    <div class="footer-links">
+      <a href="index.html">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
